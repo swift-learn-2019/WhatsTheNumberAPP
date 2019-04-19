@@ -20,7 +20,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var inputTextField: UITextField!
     
     @IBAction func makeAGuess(_ sender: UIButton) {
-        
+       
         if isOver == false{
             //遊戲進行中
             print(answer)
@@ -73,6 +73,8 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         //讓鍵盤跳出來
        inputTextField.becomeFirstResponder()
+       
+       
     }
 
 }
